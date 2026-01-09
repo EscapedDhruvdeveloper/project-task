@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#about"><span id="logo" href="#">DHRUV DAVE</span></a>
+            <ul class="navbar">
+                    <li><a href="#about">About </a></li>
+                    <li><a href="#skills">Skills </a></li>
+                    <li><a href="#project">Projects </a></li>
+                    <li><a href="#experience">Experience </a></li>
+                    <li><a href="#contact">Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-conatiner">
+      <section id="about">
+        <img src="images/profile.webp" alt="profile image">
+        <div class="about">
+            <h4>Hello I'm</h4>
+            <h2>Dhruv Dave</h2>
+            <h3>Full Stack Developer</h3>
+        <p>Passionate about developing full-cycle web applications with intuitive interfaces and solid system design.Always eager to learn and improve through real-world problem solving.</p>
+        <button id="hire"><a href=#contact>Hire Me</a></button>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="carousel">
+            <div class="group">
+                <div class="card"><img src="svg/html.svg">HTML</div>
+                <div class="card"><img src="svg/css.svg" >CSS</div>
+                <div class="card"><img src="svg/javascript.svg" >JAVASCRIPT</div>
+                <div class="card"><img src="svg/react.svg" >REACT</div>
+                <div class="card"><img src="svg/spring-boot.svg" >SPRINGBOOT</div>
+                <div class="card"><img src="svg/mysql.svg" >MYSQL</div>
+                <div class="card"><img src="svg/mongodb.svg" >MONGODB</div>
+                <div class="card"><img src="svg/github.svg" >GITHUB</div>
+            </div>
+            <div aria-hidden class="group">
+                <div class="card"><img src="svg/html.svg" >HTML</div>
+                <div class="card"><img src="svg/css.svg" >CSS</div>
+                <div class="card"><img src="svg/javascript.svg" >JAVASCRIPT</div>
+                <div class="card"><img src="svg/react.svg" >REACT</div>
+                <div class="card"><img src="svg/spring-boot.svg" >SPRINGBOOT</div>
+                <div class="card"><img src="svg/mysql.svg" >MYSQL</div>
+                <div class="card"><img src="svg/mongodb.svg" >MONGODB</div>
+                <div class="card"><img src="svg/github.svg" >GITHUB</div>
+            </div>
+        </div>
+      </section>
+
+      <section id="project">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card p1">
+                <img src="./images/live-chat.webp" alt="project1">
+                    <h3>Real-Time Chat Application</h3>
+                    <p>Built a real-time messaging platform using Spring Boot and WebSocket technology, enabling instant communication with features like live typing indicators, message delivery status, and group chat functionality.             
+                    </p>
+                    
+            </div>     
+              <div class="project-card p2">
+                <img src="./images/hotel.webp" alt="project2">
+                    <h3>Hotel Booking Application</h3>
+                    <p >Developed a comprehensive hotel reservation system with features including room availability checking, booking management, payment integration, and admin dashboard for hotel managers to track reservations and revenue.</p>
+                    
+            </div> 
+              <div class="project-card p3">
+                <img src="./images/hospital.webp" alt="project3">
+                    <h3>Hospital Management System</h3>
+                    <p>Created an integrated hospital management solution featuring patient registration, appointment scheduling, doctor management, medical records tracking, and billing system to streamline healthcare operations.</p>
+            </div>                
+        </div>
+      </section>
+
+      <section id="experience">
+            <h2>Experience & Education Table</h2>
+            <table class="table-wrap">
+                <tr>
+                    <th>Year</th>
+                    <th>Role/Degree</th>
+                    <th>Organization</th>
+                </tr>
+                <tr>
+                    <td>2026</td>
+                    <td>Full Stack Developer Intern</td>
+                    <td>Dandelion Tech</td>
+                </tr>
+                <tr>
+                    <td>2022-2026</td>
+                    <td>B.Tech-It</td>
+                    <td>S.C.E.T</td>
+                </tr>
+            </table>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Your Email" required>
+
+            <label>Message</label>
+            <textarea  placeholder="Your message" required>
+            </textarea>
+            <button type="submit" >
+                Send Message
+            </button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+        <p> &copy; 2026 Dhruv Dave </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dhruvdeveloper" target="_blank">Linkedin</a>
+                <a href="https://github.com/EscapedDhruvdeveloper" target="_blank">Github</a>
+                <a href="https://x.com/theescapeddev" target="_blank">Twitter</a>
+            </div>
+    </footer>
+</body>
+</html>
